@@ -39,13 +39,15 @@ function gotowhatsapp() {
     
     
         var url = "https://wa.me/5581988533296?text=" 
-    + "Olá Mamãe, estou confirmando a minha presença no 2º aninho de Ryan : " + "%0a" 
-    + " " + "%0a"   
-    + "*Nome:* " + nome + "%0a"
+    + " 🙊 Olá Mamãe, eu "+nome+ " estou confirmando a minha presença no 2º aninho de Ryan!! 🎂 " + "E estarei levando comigo os seguintes acompanhantes:" + "%0a"
+    + "" + "%0a"
     + "*Acompanhante 01:* " + acpum + "%0a"
     + "*Acompanhante 02:* " + acpdois + "%0a"
     + "*Acompanhante 03:* " + acptres + "%0a"
     + "*Acompanhante 04:* " + acpquatro + "%0a"
+    + "" + "%0a"
+    + "*Obrigado por me convidar neste momento tão especial na vida do Ryan, nos veremos no dia 9 de setembro para comemorar essa data do jeitinho que o Ryan pediu, juntinhos(as). 💙" + "%0a"
+
     
     
     
