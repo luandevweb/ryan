@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2º aninho, Ryan!</title>
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <script src="./src/js/prazo.js"></script>
+    <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+
+   <div class="msg-principal" id="msg-principal">
+
+    <img class="ryan" src="./src/img/ryan1.jpg">
+
+    <h1 class="hum-principal">
+
+        Olá, estou aqui para confirmarmos a sua presença em minha festinha de 2 aninhos.
+
+    </h1>
+
+    <h3 class="htres-principal">
+Antes de tudo, preciso te dar algumas orientações, podemos começar?
+    </h3>
+
+
+    <button id="btn-home" onclick="cmdUm()">COMEÇAR</button>
+
+   </div>
+
+   <div class="msg-secundaria" id="msg-secundaria">
+
+    <img id="balaoleft" src="./src/img/balao.png">
+
+    
+    <img id="balaoright" src="./src/img/balao.png">
+
+    <img class="ryan" src="./src/img/ryan2.jpg">
+
+    <h2>Informações sobre o meu aniversário:</h2>
+
+
+    <div class="span">
+    <span>
+
+    - Ao receber o meu link, você tem até 48 horas para confirmar a sua presença; <br><br>
+    - Os Papais falaram que o convidado não convida, por favor entenda o momento e evite constragimentos;<br><br>
+    - A festinha irá começar às 18:00 horas, por favor, compareça com antecedência;<br><br>
+    - Tragam o seus pequenos para brincar comigo no meu aniversário;<br><br>
+    - Não esqueça de tirar foto conosco.<br><br>
+</span>
+</div>
+
+
+
+    <button id="confirmar" onclick="cmdDois()">AVANÇAR</button>
+
+   </div>
+
+   <div class="form" id="form">
+
+
+    <img class="ryan" src="./src/img/ryan3.jpg"><br><br>
+
+    <form>
+
+        <label for="nome">Nome Completo</label><br>
+        <input type="text" name="" id="nome" class="borda" placeholder="Ex: Ryan Rodrigues Lima" autofocus required><br><br>
+        
+    
+
+        <h2>Você possui acompanhantes?</h2>
+        <br>
+        <h4>Preencha os campos abaixo:</h4>
+        <h4>Se não possue, deixe o campo EM BRANCO.</h4><br>
+
+        <label for="acpum">Acompanhante 01:</label>
+        <input type="text" name="" id="acpum" class="borda" placeholder="Ex: Nicrito da silva"><br><br>
+
+        <label for="acpum">Acompanhante 02:</label>
+        <input type="text" name="" id="acpdois" class="borda" placeholder="Ex: Nicrito da silva"><br><br>
+
+        <label for="acptres">Acompanhante 03:</label>
+        <input type="text" name="" id="acptres" class="borda" placeholder="Ex: Nicrito da silva"><br><br>
+
+        <label for="acpquatro">Acompanhante 04:</label>
+        <input type="text" name="" id="acpquatro" class="borda" placeholder="Ex: Nicrito da silva"><br><br>
+
+        <button id="btnconf" onclick="gotowhatsapp()">CONFIRMAR</button>
+
+
+    </form>
+
+
+   </div>
+   <img id="bolofofo" src="./src/img/bolofofos_juntos.png">
+<script src="./src/js/cmdos.js"></script>
+</body>
+</html>
