@@ -47,6 +47,8 @@ function gotowhatsapp() {
     + "*Acompanhante 04:* " + acpquatro + "%0a"
     + "" + "%0a"
     + "*Obrigado por me convidar neste momento tão especial na vida do Ryan, nos veremos no dia 9 de setembro para comemorar essa data do jeitinho que o Ryan pediu, juntinhos(as)*. 💙" + "%0a"
+    + "" + "%0a"
+    + "Site desenvolvido por Luan DevWeb - Todos os direitos reservados." + "%0a"
 
     
     
