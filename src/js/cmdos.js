@@ -38,7 +38,7 @@ function gotowhatsapp() {
        
     
     
-        var url = "https://chat.whatsapp.com/DuflT07TzzGI2x3L4Q6cRB?text=" 
+        var url = "https://wa.me/DuflT07TzzGI2x3L4Q6cRB?text=" 
     + " 🙊 Olá Mamãe, eu "+nome+" estou confirmando a minha presença no *2º aninho de Ryan*!! 🎂 " + "E estarei levando comigo os seguintes acompanhantes:" + "%0a"
     + "" + "%0a"
     + "*Acompanhante 01:* " + acpum + "%0a"
